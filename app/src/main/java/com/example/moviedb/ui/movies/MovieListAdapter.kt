@@ -36,7 +36,6 @@ class MovieListAdapter(private val onClickListener: View.OnClickListener,) : Pag
     class MovieItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         companion object {
-            //get instance of the DoggoImageViewHolder
             fun getInstance(parent: ViewGroup): MovieItemViewHolder {
                 val inflater = LayoutInflater.from(parent.context)
                 val view = inflater.inflate(R.layout.item_movie, parent, false)
